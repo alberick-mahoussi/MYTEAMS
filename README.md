@@ -1,5 +1,23 @@
-# B-NWP-400-PAR-4-1-myteams-alberick.mahoussi
- Communication Protocol
+# HOW COMPILE THE PROJECT
+```sh
+make
+```
+
+# How run the project
+you should probably know that in a network communication  there is the client part and the server part  
+
+To run the server you must specify the port for listen
+```sh
+./myteams_server port
+```
+
+To run the client you must specify the server ip and the port listen by server  
+```sh
+./myteams_cli ip port
+```
+
+
+ # Communication Protocol
     1- Implemented commands
         LOGIN (/login)
             This command sets the user_name used by the client
